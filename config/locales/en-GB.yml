@@ -591,6 +591,9 @@ en-GB:
   variants: Variants
   vat: "VAT"           
   version: Version
+  vs_standard_shipping: "Standard Shipping"
+  vs_priority_shipping: "Priority Shipping"
+  vs_overnight_shipping: "Overnight Shipping"
   website: Website
   weight: Weight
   welcome_to_sample_store: "Welcome to the sample store"
