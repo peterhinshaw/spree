@@ -1,4 +1,4 @@
-sudo gem install rails --version=2.3.4 --no-rdoc --no-ri
+sudo gem install rails --version=2.3.2 --no-rdoc --no-ri
 sudo gem install highline --version=1.4.0 --no-rdoc --no-ri 
 sudo gem install authlogic --version=2.0.11 --no-rdoc --no-ri 
 sudo gem install activemerchant --version=1.4.1 --no-rdoc --no-ri 
@@ -13,6 +13,13 @@ sudo gem install javan-whenever  --no-rdoc --no-ri
 sudo gem install searchlogic --version=2.1.13 --no-rdoc --no-ri 
 sudo gem install mislav-will_paginate --version=2.3.11 --no-rdoc --no-ri 
 sudo gem install mysql --no-rdoc --no-ri 
+sudo gem install passenger --version=2.2.2 --no-rdoc --no-ri 
+sudo gem install builder --version=2.1.2 --no-rdoc --no-ri
+sudo gem install fcgi --version=0.8.7 --no-rdoc --no-ri
+sudo gem install hoe --version=2.3.3 --no-rdoc --no-ri
+sudo gem install json --version=1.1.9 --no-rdoc --no-ri
+sudo gem install rubyforge --version=1.0.4 --no-rdoc --no-ri
+
  
 echo WC_DB_ENGINE=${WC_DB_ENGINE}
  
@@ -44,4 +51,4 @@ port: 5432
 fi
  
 rake db:bootstrap RAILS_ENV=production
-chown www-data log
+chown www-data log log/*

@@ -1,6 +1,5 @@
 # Uncomment this if you reference any of your controllers in activate
 # require_dependency 'application'
-require 'fcgi'
 
 load 'calculator/vintagesales_standard_calculator.rb'
 load 'calculator/vintagesales_priority_calculator.rb'
